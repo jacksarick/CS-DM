@@ -7,4 +7,4 @@ I try to upload a couple different ways to do everything in at least Python. Emp
 The "DIRTY" notation on file names means it is not a very clean solution.
 The titles are overly descriptive. If you have a problem with this, keep it to yourself.
 
-I do this out of love for al things binary. Like it? Please tell me! Don't like it? Help out!
+I do this out of love for all things binary. Like it? Please tell me! Don't like it? Help out!
