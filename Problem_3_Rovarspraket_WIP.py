@@ -11,13 +11,15 @@ def next_vowel(letter):
 	global vowelnum
 
 	closest = [abs(alphabet.index(letter) - val) for val in vowelnum]
-	return alphabet[minim.index(min(minim))]
+	return alphabet[vowelnum[closest.index(min(closest))]]
 
 for letter in word:
-	if letter is in vowel:
+	if letter in vowels:
 		newword += letter
 
 	else:
 		newword += letter
 		newword += next_vowel(letter)
 		newword += alphabet[alphabet.index(letter) + 1]
+
+print newword
