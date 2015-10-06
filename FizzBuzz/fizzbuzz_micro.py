@@ -1,0 +1,1 @@
+print [[n,"Fizz", "Buzz", "FizzBuzz"][(n%3==0)+((n%5==0)*2)] for n in range(100)]
