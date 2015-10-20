@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Little Extension",
+  "description": "A wee little extension to demonstrate cool stuff",
+  "version": "1.5",
+  "author": "jacksarick@gmail.com",
+ 
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["jquery.min.js", "myscript.js"]
+    }
+  ],
+
+  "permissions": [
+   "activeTab"
+   ]
+}
