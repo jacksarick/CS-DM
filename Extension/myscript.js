@@ -1,1 +1,1 @@
-$('body').prepend("Hello!");
+$('.navbar').prepend("Hello!");

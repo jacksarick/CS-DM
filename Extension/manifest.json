@@ -13,7 +13,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*"],
+      "matches": ["http://jack.antinode.ca/cs/*"],
       "js": ["jquery.min.js", "myscript.js"]
     }
   ],
